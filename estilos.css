@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: blueviolet;
+    color: darkblue;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: double;
+}
+span{
+    background-color: orange;
+}
+.resaltado{
+    background-color: red;
+}
