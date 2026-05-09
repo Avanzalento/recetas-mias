@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Ribeye&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Ribeye&family=Ribeye+Marrow&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fuzzy+Bubbles:wght@400;700&family=Ribeye&family=Ribeye+Marrow&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF1CA;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+h1{
+    margin: 40px;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: turquoise;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.recomendaciones{
+    background-color: #FFDE63;
+    border-radius: 20px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+#coco-torta{
+    background-color: #FFB399;
+    border-radius: 20px;
+}
+
+#ricotta{
+    background-color: #DC9B9B;
+    border-radius: 20px;
+}
+
+#pastafrola{
+    background-color: #DD9E59;
+    border-radius: 20px;
+}
+
+.nuevos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFDE63;
+    border-radius: 20px;
+}
+#tresleches{
+    background-color: rosybrown;
+    border-radius: 20px;
+}
+#uno-div{
+    background-color: #FFB399;
+}
+#dos-div{
+    background-color: #DC9B9B;
+}
+#tres-div{
+    background-color: #DD9E59;
+}
+#cuatro-div{
+    background-color: #FFDE63;
+}
+#cinco-div{
+    background-color: #A47251;
+}
+#seis-div{
+    background-color: #FFEF91;
+}
+#siete-div{
+    background-color: #FFA02E;
+}
+#ocho-div{
+    background-color: #7F2020;
+}
+#nueve-div{
+    background-color: #8A2D3B;
+}
+footer{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.redes-sociales{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    padding-bottom: 40px;
+}
