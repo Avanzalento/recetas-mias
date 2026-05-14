@@ -59,36 +59,43 @@ div{
     display: flex;
     justify-content: space-around;
 }
-article{
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-    padding: 40px;
+
+#coco-torta{
+    background-color: #F48F68;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: #060202 0px 4px 12px;
+    padding: 20px;
 }
-article p{
-    margin: 20px;
-}
-article img{
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 2%;
-}
-#coco-torta{
-    background-color: #F48F68;
+#coco-torta img{
+    width: 200px;
+    height: 200px;
 }
 
 #ricotta{
     background-color: #e27575;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
-
+#ricotta img{
+    width: 200px;
+    height: 200px;
+}
 #pastafrola{
     background-color: #DD9E59;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#pastafrola img{
+    width: 200px;
+    height: 200px;
 }
 .fila img{
     width: 500px;
@@ -97,12 +104,38 @@ article img{
 #tresleches{
     background-color: rosybrown;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#tresleches img{
+    width: 200px;
+    height: 200px;
 }
 #zanahoria{
     background-color: #FF9D23;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#zanahoria img{
+    width: 200px;
+    height: 200px;
 }
 #flan{
     background-color: #FFB399;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#flan img{
+    width: 200px;
+    height: 200px;
 }
 #dos-div{
     background-color: #DC9B9B;
