@@ -59,7 +59,9 @@ div{
     display: flex;
     justify-content: space-around;
 }
-
+.recomendados{
+    justify-content: space-between;
+}
 #coco-torta{
     background-color: #F48F68;
     border-radius: 20px;
@@ -153,9 +155,7 @@ div{
 #siete-div{
     background-color: #FFA02E;
 }
-#nueve-div{
-    background-color: #8A2D3B;
-}
+
 .ubicacion{
     flex-direction: column;
     background-color: #FFB399;
@@ -181,6 +181,10 @@ footer{
     align-items: center;
     padding: 20px;
     margin-top: 20px;
+}
+footer p{
+    font-size: 20px;
+    color: #8A2D3B;
 }
 .redes-sociales{
     margin-top: 10px;

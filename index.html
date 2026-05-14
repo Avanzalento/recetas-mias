@@ -10,19 +10,19 @@
     <header>
         <h1>Libro de Recetas de Yolanda</h1>
         <nav class="navegacion">
-            <h2>Inicio</h2>
-            <h2>Recomendados</h2>
-            <h2>Nuevos</h2>
-            <h2>Contacto</h2>
+            <a href="#recomendados"><h2>Recomendados</h2></a>
+            <a href="#nuevas"><h2>Nuevos</h2></a>
+            <a href="#direccion"><h2>Dirección</h2></a>
+            <a href="#contacto"><h2>Contacto</h2></a>
         </nav>
     </header>
     <main>
         <section>
-            <h2>Recetas Recomendadas</h2>
+            <h2 id="recomendados">Recetas Recomendadas</h2>
             <p>Estas recetas fueron elegidas por ser algunas de las más populares y queridas por quienes visitan la página. 
             Son opciones ideales para cualquier ocasión, con sabores clásicos y preparaciones que siempre sorprenden. 
         Perfectas para compartir, disfrutar en familia o animarse a probar algo nuevo en la cocina.</p>
-            <div>
+            <div class="recomendados">
                 <div id="coco-torta">
                     <div><img src="https://i.pinimg.com/736x/96/a1/9c/96a19cc950b938620b0b67df56bf722b.jpg"></div>
                     <h2>ChocoTorta</h2>
@@ -46,7 +46,7 @@
             <img src="imae/frutilla.gif">
         </div>
         <section>
-            <h2>Recetas Nuevas</h2>
+            <h2 id="nuevas">Recetas Nuevas</h2>
             <p>En esta sección vas a encontrar algunas de las recetas más recientes y otras que fueron mejoradas para que salgan todavía más ricas. 
             La idea es compartir postres clásicos y deliciosos, con opciones para disfrutar en cualquier momento del día. 
             Espero que estas recetas te inspiren a probar cosas nuevas y a seguir descubriendo sabores increíbles.</p>
@@ -75,7 +75,7 @@
             </div>
         </section>
         <div class="ubicacion">
-            <h2>Ubicacion</h2>
+            <h2 id="direccion">Ubicacion</h2>
             <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0352149630844!2d-58.43473812499861!3d-34.628550372945355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4c4f267c3b%3A0xbe9196cc48b1cb6!2sBeauchef%20907-999%2C%20C1424BDS%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1776379065118!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> frameborder="0"></iframe>
                 <div class="texto">
@@ -92,10 +92,9 @@
         <div id="cinco-div"> aaaaaa</div>
         <div id="seis-div">aaaaa</div>
         <div id="siete-div">aaaaa</div>
-        <div id="nueve-div">aaaaa</div>
     </main>
-    <footer>
-        <p>Desarrollado por Carolina</p>
+    <footer id="contacto">
+        <p><b>Desarrollado por Carolina</b></p>
         <div class="redes-sociales">
             <a href="https://www.facebook.com/" target="_blank">
                 <img class="icono-red-social" src="./imae/facebook.png" alt="¡¡Mi Facebook!!">
