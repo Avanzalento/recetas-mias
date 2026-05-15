@@ -7,6 +7,9 @@
 body{
     background-color: #FFF1CA;
 }
+p{
+    font-size: 20px;
+}
 header{
     background-color: #830e0e;
     color: white;
